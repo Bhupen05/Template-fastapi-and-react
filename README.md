@@ -57,7 +57,8 @@ Backend runs at `http://localhost:10001`, frontend at `http://localhost:3000`.
 - `install-backend.bat` – Windows shortcut to install backend requirements.
 
 ## Project structure
-```📦Farm-Stack-Backend-Template
+## 📦Farm-Stack-Backend-Template
+```
  ┣
  ┣ 📂api                 ⊙ This is Base API folder
  ┃ ┣ 📂db                ⊙ Demo DB configuration
@@ -84,9 +85,11 @@ Backend runs at `http://localhost:10001`, frontend at `http://localhost:3000`.
  ┣ 📜devices.db          ⊙ This is Sqlite database for the default room Management example
  ┣ 📜req.txt             ⊙ Install these Packages
  ┣ 📜server.py           ⊙ Configure Port in this
- ┗ 📜z.bat               ⊙ Auto Start Script for Windows after venv configuration```
+ ┗ 📜z.bat               ⊙ Auto Start Script for Windows after venv configuration
+ ```
 
- ```📦Farm-Stack-Frontend-Template
+## 📦Farm-Stack-Frontend-Template
+ ```
  ┣
  ┣ 📂public              ⊙ Static assets served by Vite
  ┃ ┗ 📜favicon.svg
